@@ -69,7 +69,7 @@ RAPIDJSON_DIAG_OFF(effc++)
 #ifdef _WIN32
 #include <windows.h>
 #include <shlwapi.h>
-
+#pragma comment(lib, "shlwapi.lib")
 #endif
 
 #ifndef PATH_MAX
