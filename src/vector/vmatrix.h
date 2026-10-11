@@ -22,6 +22,11 @@
 
 #ifndef VMATRIX_H
 #define VMATRIX_H
+
+#ifndef VMatrix
+#define VMatrix LOTMatrix
+#endif
+
 #include "vglobal.h"
 #include "vpoint.h"
 #include "vrect.h"
