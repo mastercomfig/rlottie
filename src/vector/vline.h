@@ -94,4 +94,6 @@ inline void VLine::splitAtLength(float lengthAt, VLine &left, VLine &right) cons
     right.mY2 = mY2;
 }
 
+V_END_NAMESPACE
+
 #endif //VLINE_H
